@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", serif;
+    background-color: #f8f9fa;
+    color: #222;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ED1C24;
+    background-image: linear-gradient(to left, #ED1C24 , #991B1F);
+    padding: 10px 100px;
+    height: 169px;
+}
+.navbar .nav-link {
+    color: white !important;
+    margin-left: 15px;
+}
+.footer-item .nav-link {
+    color: #ED1C24 !important;
+    margin-left: 15px;
+}
+
+.footer .logo {
+    width: 120px;
+}
+
+.footer{
+    margin-top: 50px;
+}
+
+.social-links img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.containerFooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links {
+    width: 138px;
+    display: flex;
+}
+
+
+
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+
+.navbar .nav-link {
+    color: white !important;
+    margin-left: 15px;
+}
+.footer-item .nav-link {
+    color: #ED1C24 !important;
+    margin-left: 15px;
+}
+.footer .logo {
+    width: 120px;
+}
+
+.footer{
+    margin-top: 200px;
+}
+
+.social-links img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.main-section {
+    position: relative;
+    background: url('../../../images/servicesBackground.jpeg') center/cover no-repeat;
+    height: 764px;
+    color: white;
+}
+
+.main-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 764px;
+    background: rgba(150, 0, 0, 0.7);
+    z-index: 1;
+}
+
+
+.text-section {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    background: white;
+    color: black;
+}
+
+.text-section h1 {
+    font-weight: bold;
+}
+
+.image-section {
+    position: relative;
+    z-index: 2;
+}
+
+.image-section img {
+    width: 600px;
+    aspect-ratio: 1 / 1;
+    /*display: block;*/
+    border-radius: 5px;
+    background: rgba(000, 0, 0, 0.7);
+    z-index: 5;
+    margin-top: -130px;
+}
+
+.content {
+    margin-top: 150px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    /*padding: 50px;*/
+    position: relative;
+    /*width: 100%;*/
+    /*margin: 50px;*/
+    /*z-index: 2;*/
+}
+
+
+.contentTwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    top: 20px;
+    z-index: 2;
+}
+
+.main-image {
+    border-width: 1px;
+    width: 550px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+    margin-top: 50px;
+}
+
+.projects-section {
+    position: relative;
+    margin-bottom: 100px;
+    top: 150px;
+}
+
+.section-title {
+    font-family:  "Raleway", serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 120px ;
+    text-align: start;
+
+}
+
+.project-card {
+    position: relative;
+    width: 100%;
+    height: 456px;
+    background-image: url('../../../images/servicesLastSection.jpeg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(150, 0, 0, 1), rgba(0, 0, 0, 0.0)),
+    url('../../../images/servicesLastSection.jpeg');
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    text-align: center;
+    color: white;
+    padding: 20px 20px 40px 20px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.overlay h3 {
+    font-family: "Raleway", serif;
+    text-align: start;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.overlay a {
+    font-family: "Raleway", serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.overlay a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+.text-section {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    background: white;
+    color: black;
+}
+
+.text-section h1 {
+    font-weight: bold;
+}
+
+.image-section {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+}
+
+.image-section img {
+    width: 100%;
+    display: block;
+}
+
+.contain{
+    background-image: url('../../../images/servicesBack.jpg');
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.containerFooter{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+
+.contentRow{
+    display: flex;
+    flex-direction: column;
+}
+.pageHeader{
+    font-family:  "Raleway", serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 120px ;
+    margin-bottom: 50px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.textContain {
+    position: relative;
+    z-index: 5;
+
+}
+
+.btn-more {
+    color: #222222;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contentProject {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    margin-top: 170px;
+    margin-left: 30px;
+}
+
+.text h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*.overlayColor{*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 600px;*/
+/*    background-color: rgba(0, 0, 0, 0.5);*/
+/*}*/

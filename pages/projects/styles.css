@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", serif;
+}
+
+body {
+    font-family: "Raleway", serif;
+    background-color: white;
+    color: #222;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ED1C24;
+    background-image: linear-gradient(to left, #ED1C24 , #991B1F);
+    padding: 10px 100px;
+    height: 169px;
+}
+.navbar .nav-link {
+    color: white !important;
+    margin-left: 15px;
+}
+.footer-item .nav-link {
+    color: #ED1C24 !important;
+    margin-left: 15px;
+}
+
+.footer .logo {
+    width: 120px;
+}
+
+.footer{
+    margin-top: 50px;
+}
+
+.social-links img {
+    width: 30px;
+    margin: 0 10px;
+}
+.social-links {
+    width: 138px;
+    display: flex;
+}
+
+.containerFooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects>h2 {
+    font-family:  "Raleway", serif;
+    font-size: 50px;
+    line-height: 58px;
+    letter-spacing: 0;
+    font-weight: bolder;
+    margin-top: 67px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: left;
+}
+
+.btn-more {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.background {
+    left: 0;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+}
+
+.background img {
+    background-size: contain;
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 430px;
+    background-color: #ED1C24;
+    opacity: 0.8;
+}
+
+.projectOne, .projectTwo, .projectThree, .projectFour{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    z-index: 2;
+}
+
+.main-image {
+    border-width: 1px;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+    margin: 30px;
+}
+
+.text {
+    color: white;
+    margin: 50px 0;
+}
+
+.text h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    padding-bottom: 3px;
+    display: inline-block;
+}
+
+
+
+.containerNews{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+}
