@@ -6,7 +6,7 @@
 
 body {
     font-family: "Raleway", serif;
-    background-color: #f8f9fa;
+    background-color: white;
     color: #222;
 }
 .header {
@@ -35,9 +35,10 @@ body {
     margin-top: 50px;
 }
 
-.social-links img {
-    width: 30px;
-    margin: 0 10px;
+.social-links {
+    width: 138px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .containerFooter{
@@ -45,11 +46,15 @@ body {
     justify-content: space-between;
 }
 
-.social-links {
-    width: 138px;
-    display: flex;
+.news-more {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
 }
-
+.social-links a{
+    color: white;
+    font-size: 24px;
+}
 .title {
      font-size: 45px;
      font-weight: bold;
