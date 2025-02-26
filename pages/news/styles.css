@@ -32,7 +32,7 @@ body {
 }
 
 .footer{
-    margin-top: 50px;
+    margin-top: 90px;
 }
 
 .social-links {
@@ -60,7 +60,6 @@ body {
     margin-top: 10px;
 }
 
-
 h2 {
     font-size: 30px;
     font-weight: bold;
@@ -86,6 +85,6 @@ h1 {
 
 }
 .news-last-row {
-    padding-top: 158px;
+    padding-top: 150px;
     margin-left: -70px;
 }
