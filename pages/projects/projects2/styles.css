@@ -127,7 +127,6 @@ body {
 
 /*.container {*/
 /*    position: relative;*/
-/*    width: fit-content;*/
 /*    !*margin: 50px auto;*!*/
 /*}*/
 
@@ -164,10 +163,10 @@ body {
 /*    padding-left: 90px;*/
 /*}*/
 
-/*.bg-line{*/
-/*    position: absolute;*/
-/*    z-index: -1;*/
-/*}*/
+.bg-line{
+    position: absolute;
+    z-index: -1;
+}
 
 
 /*.background {*/

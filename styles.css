@@ -128,7 +128,10 @@ body {
     font-weight: bold;
     text-align: left;
 }
+.news-heading h1 {
+    padding-top: 0;
 
+}
 .about {
     position: relative;
 }
@@ -278,7 +281,6 @@ body {
 }
 
 .clients-section h2 {
-    padding-top: 100px;
     font-size: 50px;
     text-transform: uppercase;
     font-weight: bold;
@@ -305,6 +307,34 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+.client-number{
+    font-size: 40px;
+    color: #C8C8C8;
+    font-weight: 900;
+}
+
+.client-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.news-number{
+    font-size: 40px;
+    color: #C8C8C8;
+    font-weight: 900;
+}
+
+.news-heading{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 80px;
+    gap: 20px;
+}
+
 .news-link{
     display: flex;
     flex-direction: column;
