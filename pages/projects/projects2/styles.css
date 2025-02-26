@@ -142,6 +142,7 @@ body {
     background-image: linear-gradient(to left, #ED1C24, #991B1F);
     border-radius: 10px;
     z-index: 0;
+    right: 0;
 }
 
 .image-wrapper img {
@@ -149,7 +150,7 @@ body {
     display: block;
     max-width: 100%;
     border-radius: 10px;
-        width: 816px;
+        /*width: 816px;*/
         height: auto;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
     z-index: 1;

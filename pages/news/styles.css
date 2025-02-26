@@ -68,7 +68,24 @@ h2 {
 }
 
 h1 {
+    padding-top: 77px;
     font-size: 50px;
     font-weight: bold;
     text-transform: uppercase;
+}
+.news-bg-line {
+    position: absolute;
+    z-index: -1;
+}
+.news-row {
+    padding-top: 120px;
+    margin-left: -70px;
+}
+.news-section {
+    padding-top: 53px;
+
+}
+.news-last-row {
+    padding-top: 158px;
+    margin-left: -70px;
 }

@@ -78,7 +78,7 @@ body {
     position: relative;
     width: 100%;
     height: 800px;
-    background: url('./images/home-header-bg.png') center/cover no-repeat;
+    background: url('./images/home-header-bg.webp') center/cover no-repeat;
     color: white;
 }
 
@@ -221,7 +221,7 @@ body {
     position: relative;
     width: 100%;
     height: 600px;
-    background: url('./images/home-service-bg-img.png') center/cover no-repeat;
+    background: url('./images/home-service-bg-img.webp') center/cover no-repeat;
     align-items: flex-start;
     justify-content: space-around;
     color: white;
@@ -354,7 +354,7 @@ body {
     position: relative;
     width: 100%;
     height: 600px;
-    background: url('./images/home-contact-bg-img.png') center/cover no-repeat;
+    background: url('./images/home-contact-bg-img.webp') center/cover no-repeat;
     align-items: flex-start;
     justify-content: space-around;
     color: white;
