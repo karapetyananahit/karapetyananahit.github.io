@@ -59,10 +59,10 @@ body {
 
 .main-section {
     position: relative;
-    background: url('../../images/home-services2.webp') center/cover no-repeat;
+    background: url('../../images/services-about-as-page.webp') center/cover no-repeat;
     height: 764px;
     color: white;
-    margin-bottom: 200px;
+    margin-bottom: 400px;
 }
 
 .main-section::before {
@@ -106,6 +106,7 @@ body {
 
 
 .contain{
+    margin-top: 140px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -114,7 +115,8 @@ body {
 }
 
 .content2{
-    margin-top: 20px;
+    margin-top: 90px;
+    /*margin-bottom: 200px;*/
 }
 
 
@@ -161,7 +163,7 @@ body {
     position: relative;
     width: 100%;
     height: 500px;
-    margin-top: -40px;
+    /*margin-top: -40px;*/
     background-image: url('../../images/home-services2.webp');
     background-size: cover;
     background-position: center;
@@ -207,8 +209,14 @@ body {
     margin-top: 10px;
 }
 
-.overlay a:hover {
-    text-decoration: underline;
+
+.services-bg-line{
+    position: absolute;
+    z-index: -1;
+}
+
+.main-bg {
+    padding-top: 350px;
 }
 
 
@@ -227,3 +235,7 @@ body {
 /*    height: 600px;*/
 /*    background-color: rgba(0, 0, 0, 0.5);*/
 /*}*/
+
+.second-section{
+    margin-bottom: 200px;
+}
