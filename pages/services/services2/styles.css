@@ -7,6 +7,7 @@
 body {
     font-family: "Raleway", serif;
     background-color: white;
+    overflow-x: hidden;
     color: #222;
 }
 .header {
@@ -103,12 +104,15 @@ body {
 
 .content {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     position: relative;
     /*width: 100%;*/
     margin: 0;
     z-index: 2;
+}
+.project-image {
+
 }
 
 .main-image {
@@ -121,6 +125,7 @@ body {
 }
 
 .text {
+    margin: 20px;
     color: white;
 }
 
@@ -130,7 +135,6 @@ body {
 
 .text p {
     font-size: 16px;
-    margin-bottom: 15px;
 }
 
 

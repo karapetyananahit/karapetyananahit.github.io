@@ -152,7 +152,7 @@ body {
 .content {
     width: 30%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 75px;
 }
 
@@ -238,4 +238,9 @@ body {
 
 .second-section{
     margin-bottom: 200px;
+}
+
+
+.content {
+    display: flex;
 }

@@ -8,6 +8,7 @@ body {
     font-family: "Raleway", serif;
     background-color: white;
     color: #222;
+    overflow-x: hidden;
 }
 .header {
     display: flex;

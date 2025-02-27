@@ -116,13 +116,13 @@ body {
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
 }
 
-/*.main-content {*/
-
+.main-content {
+    position: relative;
 /*    background-image: url('../../../images/project2Back.jpg');*/
 /*    background-size: 100%;*/
 /*    background-position: center;*/
 /*    background-repeat: no-repeat;*/
-/*}*/
+}
 
 
 /*.container {*/
@@ -166,6 +166,8 @@ body {
 .bg-line{
     position: absolute;
     z-index: -1;
+    left: -227px;
+    top: -111px;
 }
 
 
