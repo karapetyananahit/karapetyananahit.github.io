@@ -106,7 +106,6 @@ body {
 
 .project-card {
     position: relative;
-    /*width: 100%;*/
     height: 500px;
     aspect-ratio: 1 / 1;
     margin: 0 40px 85px 40px;

@@ -61,26 +61,6 @@ body {
     text-transform: uppercase;
     padding-top: 100px;
 }
-
-/*.background {*/
-/*    position: relative;*/
-/*    height: 631px;*/
-/*    right: 0;*/
-/*    background-color: #ED1C24;*/
-/*    background-image: linear-gradient(to left, #ED1C24 , #991B1F);*/
-/*    margin-right: 0;*/
-/*}*/
-
-/*.image-wrapper img {*/
-/*    position: absolute;*/
-/*    align-items: center;*/
-/*    z-index: 2;*/
-/*    width: 816px;*/
-/*    height: auto;*/
-/*    border-radius: 5px;*/
-/*    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);*/
-/*}*/
-
 .projectsRow img {
     width: 774px;
     height: auto;
@@ -118,35 +98,24 @@ body {
 
 .main-content {
     position: relative;
-/*    background-image: url('../../../images/project2Back.jpg');*/
-/*    background-size: 100%;*/
-/*    background-position: center;*/
-/*    background-repeat: no-repeat;*/
 }
-
-
-/*.container {*/
-/*    position: relative;*/
-/*    !*margin: 50px auto;*!*/
-/*}*/
 
 .background {
     position: absolute;
     height: 631px;
-    width: 500px;
-    /*height: 100%;*/
     background-color: #ED1C24;
     background-image: linear-gradient(to left, #ED1C24, #991B1F);
     z-index: 0;
     right: 0;
+    width: 45%;
+    top: 330px;
 }
 
 .image-wrapper img {
     position: relative;
     display: block;
     max-width: 100%;
-        /*width: 816px;*/
-        height: auto;
+    height: auto;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
     z-index: 1;
 }
@@ -159,9 +128,6 @@ body {
 
 }
 
-/*.bg-content {*/
-/*    padding-left: 90px;*/
-/*}*/
 
 .bg-line{
     position: absolute;
