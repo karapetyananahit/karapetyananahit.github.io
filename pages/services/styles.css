@@ -8,6 +8,7 @@ body {
     font-family: "Raleway", serif;
     background-color: white;
     color: #222;
+    overflow-x: hidden;
 }
 .header {
     display: flex;
@@ -76,17 +77,6 @@ body {
     z-index: 1;
 }
 
-.img-fluid {
-    width: 600px;
-    aspect-ratio: 1 / 1;
-    /*display: block;*/
-    border-radius: 5px;
-    background: rgba(000, 0, 0, 0.7);
-    z-index: 5;
-    /*margin-top: -130px;*/
-    margin: 30px;
-}
-
 .contain {
     width: 100%;
     display: flex;
@@ -94,9 +84,7 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    /*margin: 50px;*/
 }
-
 
 .image-section {
     position: relative;
@@ -104,71 +92,32 @@ body {
     padding: 20px;
 }
 
-
-.contain{
-    margin-top: 140px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 48px;
-}
-
-.content2{
-    margin-top: 90px;
-    /*margin-bottom: 200px;*/
-}
-
-
 .contentRow{
     position: relative;
-    /*display: flex;*/
-    /*flex-direction: column;*/
-}
-.pageHeader{
-    font-family:  "Raleway", serif;
-    font-size: 50px;
-    font-weight: bold;
-    /*margin-top: 90px;*/
-    margin-left: 120px ;
-    margin-bottom: 90px;
-    text-transform: uppercase;
-}
-
-.row{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.btn-more {
-    color: #222222;
-    text-decoration: none;
-    font-weight: bold;
 }
 
 
 .content {
-    width: 30%;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    gap: 75px;
+    justify-content: space-between;
 }
-
-
-
 
 .project-card {
     position: relative;
-    width: 100%;
+    /*width: 100%;*/
     height: 500px;
-    /*margin-top: -40px;*/
+    aspect-ratio: 1 / 1;
+    margin: 0 40px 85px 40px;
     background-image: url('../../images/home-services2.webp');
     background-size: cover;
     background-position: center;
     overflow: hidden;
     z-index: 5;
+}
+.cards-first-column .project-card{
+    background-image: url('../../images/home-services1.webp');
 }
 
 .overlay {
@@ -177,12 +126,11 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.0)),
-    url('../../images/services.jpeg');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.0));
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     color: white;
     padding: 20px 20px 40px 20px;
@@ -195,7 +143,8 @@ body {
 
 .overlay h3 {
     font-family: "Raleway", serif;
-    text-align: start;
+    text-transform: uppercase;
+    text-align: center;
     font-size: 35px;
     font-weight: bold;
 }
@@ -213,34 +162,45 @@ body {
 .services-bg-line{
     position: absolute;
     z-index: -1;
+    right: -50px;
 }
 
 .main-bg {
     padding-top: 350px;
 }
 
-
-/*.contentRow{*/
-/*    background-image: url('../../images/servicesBg.jpg');*/
-/*    background-size: cover;*/
-/*    background-position: left;*/
-/*    background-repeat: no-repeat;*/
-/*}*/
-
-/*.overlayColor{*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    width: 100%;*/
-/*    height: 600px;*/
-/*    background-color: rgba(0, 0, 0, 0.5);*/
-/*}*/
-
 .second-section{
     margin-bottom: 200px;
 }
 
+.service-header{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.container{
+    position: relative;
+}
 
-.content {
-    display: flex;
+.cards-first-column {
+    margin-top: 50px;
+}
+
+.cards-second-column {
+    margin-top: 100px
+}
+
+.services-row1-bg-line {
+    position: absolute;
+    z-index: 2;
+    left: -300px;
+    top: 140px;
+}
+
+.services-row2-bg-line {
+    position: absolute;
+    z-index: 2;
+    left: -300px;
+    top: 180px;
 }

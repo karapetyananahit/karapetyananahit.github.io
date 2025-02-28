@@ -32,7 +32,7 @@ body {
 }
 
 .footer{
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .social-links {
@@ -133,7 +133,7 @@ body {
 .background {
     position: absolute;
     height: 631px;
-    width: 900px;
+    width: 500px;
     /*height: 100%;*/
     background-color: #ED1C24;
     background-image: linear-gradient(to left, #ED1C24, #991B1F);
@@ -167,7 +167,7 @@ body {
     position: absolute;
     z-index: -1;
     left: -227px;
-    top: -111px;
+    top: -40px;
 }
 
 
@@ -189,3 +189,15 @@ body {
 /*    border-radius: 5px;*/
 /*    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);*/
 /*}*/
+
+
+.project-section {
+    margin-top: 150px;
+}
+.project-content {
+    margin-top: 100px;
+}
+
+#image-slider {
+    margin-top:130px;
+}
