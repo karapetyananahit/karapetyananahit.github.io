@@ -16,7 +16,7 @@ body {
     background-color: #ED1C24;
     background-image: linear-gradient(to left, #ED1C24 , #991B1F);
     padding: 10px 100px;
-    height: 169px;
+    height: auto;
 }
 .navbar .nav-link {
     color: white !important;
@@ -56,7 +56,7 @@ body {
     font-size: 24px;
 }
 .title {
-     font-size: 45px;
+     font-size: 35px;
      font-weight: bold;
      text-transform: uppercase;
      text-align: left !important;
@@ -67,3 +67,53 @@ body {
     flex-direction: column;
     align-items: start;
 }
+.img-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-logo {
+    width: 100%;
+}
+
+
+
+@media (min-width: 1025px) {
+    .container {
+        background-color: yellowgreen;
+        font-size: 18px;
+    }
+
+}
+@media (max-width: 768px) {
+    .container {
+        background-color: cadetblue;
+        font-size: 16px;
+    }
+    .navbar .nav-link {
+        margin-left: 15px;
+        text-align: center;
+    }
+    .containerFooter {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .img-content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 480px) {
+    .container {
+        background-color: lightcoral;
+        font-size: 14px;
+    }
+    .header {
+        padding: 0;
+    }
+}
+
