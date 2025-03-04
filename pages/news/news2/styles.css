@@ -69,7 +69,7 @@ body {
 }
 .img-content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .header-logo {
@@ -80,14 +80,15 @@ body {
 
 @media (min-width: 1025px) {
     .container {
-        background-color: yellowgreen;
         font-size: 18px;
     }
-
+    .img-content {
+        display: flex;
+        flex-direction: row;
+    }
 }
 @media (max-width: 768px) {
     .container {
-        background-color: cadetblue;
         font-size: 16px;
     }
     .navbar .nav-link {
@@ -109,7 +110,6 @@ body {
 }
 @media (max-width: 480px) {
     .container {
-        background-color: lightcoral;
         font-size: 14px;
     }
     .header {
