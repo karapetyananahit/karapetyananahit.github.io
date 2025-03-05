@@ -74,6 +74,7 @@ h1 {
     text-transform: uppercase;
 }
 .news-bg-line {
+    display: none;
     position: absolute;
     z-index: -1;
 }
@@ -91,5 +92,96 @@ h1 {
 }
 
 .news-content{
-    margin: 0 14%;
+    margin: 0 6%;
+}
+
+
+
+@media (min-width: 1025px) {
+    .container {
+        margin: 0 auto;
+        font-size: 18px;
+    }
+    .img-content {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+}
+@media (max-width: 768px) {
+    .container {
+        font-size: 16px;
+    }
+    .navbar .nav-link {
+        margin-left: 15px;
+        text-align: center;
+    }
+    .containerFooter {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .news-bg-line{
+        display: none;
+    }
+    .news-content {
+         margin: 0 5%;
+    }
+    h2 {
+        font-size: 13px;
+    }
+    h1 {
+        font-size: 29px;
+    }
+    .text{
+        font-size: 12px;
+    }
+    .news-row {
+         padding-top: 0;
+        margin-left: 0;
+
+    }
+    .news-last-row {
+        padding-top: 0;
+        margin-left: 0;
+    }
+    .header {
+        height: auto;
+    }
+}
+@media (max-width: 480px) {
+    .container {
+        font-size: 14px;
+    }
+    .header {
+        padding: 0;
+    }
+    .news-bg-line{
+        display: none;
+    }
+    .header{
+        height: auto;
+    }
+    .news-content {
+         margin: 0 ;
+    }
+    h1 {
+         padding-top: 0;
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 14px;
+    }
+    .news-row {
+        padding-top: 20px;
+         margin: 0;
+        gap: 20px;
+    }
+    .news-last-row {
+        padding-top: 20px;
+        margin: 0;
+        gap: 20px;
+    }
 }

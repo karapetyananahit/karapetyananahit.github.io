@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News - Concept Events</title>
+    <title>About  - Concept Events</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -17,30 +17,34 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="../../index.html">
-                <img src="../../images/header-logo.webp" alt="Header Logo" loading="lazy">
+                <img src="../../images/header-logo.webp" class="header-logo" alt="Header Logo" loading="lazy">
             </a>
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="../aboutAs/index.html">О НАС</a></li>
-                <li class="nav-item"><a class="nav-link" href="../services/index.html">УСЛУГИ</a></li>
-                <li class="nav-item"><a class="nav-link" href="../projects/index.html">ПРОЕКТЫ</a></li>
-                <li class="nav-item"><a class="nav-link" href="../news/index.html">НОВОСТИ</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">КОНТАКТЫ</a></li>
-            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/index.html">О НАС</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../services/index.html">УСЛУГИ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../projects/index.html">ПРОЕКТЫ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../news/index.html">НОВОСТИ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">КОНТАКТЫ</a></li>
+                </ul>
+            </div>
         </nav>
     </div>
 </header>
 
-
 <section class="about ">
     <div class="container">
         <div>
-            <img src="../../images/about-as-bg-line.webp"  class="bg-line" alt="page bg" loading="lazy">
+            <img src="../../images/about-us-bg-line.webp" class="bg-line" alt="page bg" loading="lazy">
 
             <h2 class="text-left page-header">О НАС</h2>
 
-            <div class="row align-items-center ">
+            <div class=" align-items-center about-us-section">
 
-                <div class="col-md-5">
+                <div class="col-md-5 text-section-row">
                     <p>
                         Принимая во внимание показатели успешности, глубокий уровень погружения требует анализа благоприятных перспектив.
                         Предварительные выводы неутешительны: консультация с широким активом играет важную роль в формировании экспериментов,
@@ -62,15 +66,15 @@
                         Для современного мира укрепление и развитие
                     </p>
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-7 img-section">
                     <img src="../../images/home-about.webp" class="img-fluid  shadow" alt="О нас" loading="lazy">
                 </div>
             </div>
-            <div class="row align-items-center about-row">
-                <div class="col-md-7">
+            <div class="row align-items-center about-row about-us-section">
+                <div class="col-md-7 img-section">
                     <img src="../../images/home-about.webp" class="img-fluid secondImg  shadow " alt="О нас" loading="lazy">
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-5 text-content text-section">
                     <p>
                         Принимая во внимание показатели успешности, глубокий уровень погружения требует анализа благоприятных перспектив.
                         Предварительные выводы неутешительны: консультация с широким активом играет важную роль в формировании экспериментов,
@@ -95,7 +99,7 @@
         </div>
 
         <div>
-            <img src="../../images/about-as-bg2-line.webp"  class="bg-line" alt="page bg" loading="lazy">
+            <img src="../../images/about-us-bg2-line.webp" class="bg-second" alt="page bg" loading="lazy">
 
             <div class="row align-items-center">
                 <div class="about-text">
@@ -111,11 +115,11 @@
                         в формировании экспериментов, поражающих по своей масштабности и грандиозности. Для современного мира укрепление и развитие</p>
                 </div>
             </div>
-            <div class="row align-items-center about-section ">
-                <div class="col-md-5">
-                    <img src="../../images/services-about-as-page.webp" class="img-fluid shadow img-square" alt="О нас" loading="lazy">
+            <div class=" align-items-center about-section ">
+                <div class="col-md-5 img-section">
+                    <img src="../../images/services-about-us-page.webp" class="img-fluid shadow img-square" alt="О нас" loading="lazy">
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-7 text-content text-section text-content-last">
                     <p>Принимая во внимание показатели успешности, глубокий уровень погружения требует анализа благоприятных перспектив.
                         Предварительные выводы неутешительны: консультация с широким активом играет важную роль в формировании экспериментов,
                         поражающих по своей масштабности и грандиозности. Для современного мира укрепление и развитие внутренней структуры
@@ -128,7 +132,7 @@
                         в формировании экспериментов, поражающих по своей масштабности и грандиозности. Для современного мира укрепление и развитие</p>
                 </div>
             </div>
-            <div class="row align-items-center  text-section">
+            <div class="row align-items-center  ">
                 <div class="about-content">
                     <p>Принимая во внимание показатели успешности, глубокий уровень погружения требует анализа благоприятных перспектив.
                         Предварительные выводы неутешительны: консультация с широким активом играет важную роль в формировании экспериментов,
@@ -158,7 +162,7 @@
             <img src="../../images/footer-logo.webp" alt="footer Logo" loading="lazy">
         </div>
         <ul class="footer-item navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="../aboutAs/index.html">О НАС</a></li>
+            <li class="nav-item"><a class="nav-link" href="/index.html">О НАС</a></li>
             <li class="nav-item"><a class="nav-link" href="../services/services2/index.html">УСЛУГИ</a></li>
             <li class="nav-item"><a class="nav-link" href="../projects/index.html">ПРОЕКТЫ</a></li>
             <li class="nav-item"><a class="nav-link" href="../news/index.html">НОВОСТИ</a></li>
@@ -174,14 +178,8 @@
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
 
 

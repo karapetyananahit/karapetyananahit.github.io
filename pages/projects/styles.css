@@ -157,3 +157,32 @@ body {
     text-transform: uppercase;
     margin-top: 30px;
 }
+
+
+@media (min-width: 1025px) {
+    .container {
+        font-size: 18px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        font-size: 16px;
+    }
+    .navbar .nav-link {
+        margin-left: 15px;
+        text-align: center;
+    }
+    .containerFooter {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media (max-width: 480px) {
+    .container {
+        font-size: 14px;
+    }
+    .header {
+        padding: 0;
+    }
+}

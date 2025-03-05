@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -119,14 +120,11 @@ body {
 
 
 
-/* about as section */
-.row-title{
-    padding-left: 60px;
-    padding-top: 106px;
-    text-transform: uppercase;
-    font-size: 50px;
+/* about us section */
+.row-title {
     font-weight: bold;
-    text-align: left;
+    padding-left: 0;
+    padding-top: 0;
 }
 .news-heading h1 {
     padding-top: 0;
@@ -152,15 +150,10 @@ body {
     z-index: 1;
 }
 
-.about-number{
-    font-size: 40px;
-    color: #C8C8C8;
-    font-weight: 900;
-    padding: 50px 0 0 120px;
-}
+
 .about-section {
     padding-top: 100px;
-    margin-left: -73px;
+    margin-left: 0;
     margin-bottom: 100px;
 }
 
@@ -182,6 +175,7 @@ body {
 .service-bg {
     position: absolute;
     z-index: 1;
+    width: 95%;
 }
 
 .services-section {
@@ -190,10 +184,12 @@ body {
 }
 
 .service-card {
+    width: 80%;
     position: relative;
     overflow: hidden;
     border-radius: 10px;
     z-index: 1;
+    margin: 0 auto;
 }
 
 .service-card img {
@@ -229,7 +225,7 @@ body {
     display: flex;
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 400px;
     background: url('./images/home-service-bg-img.webp') center/cover no-repeat;
     align-items: flex-start;
     justify-content: space-around;
@@ -246,7 +242,7 @@ body {
     position: relative;
     color: white;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
     z-index: 1;
     text-align: left;
@@ -277,11 +273,11 @@ body {
 
 .clients-section {
     text-align: center;
-    padding: 50px 0;
+    padding: 0;
 }
 
 .clients-section h2 {
-    font-size: 50px;
+    font-size: 30px;
     text-transform: uppercase;
     font-weight: bold;
     text-align: left;
@@ -292,11 +288,11 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    margin-top: 30px;
+    margin-top: 0;
 }
 
 .client-logos img {
-    max-width: 120px;
+    max-width: 90px;
     height: auto;
     transition: transform 0.3s;
 }
@@ -331,7 +327,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 12px;
     gap: 20px;
 }
 
@@ -356,17 +352,17 @@ body {
 }
 .title {
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     text-align: left;
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
 /* contact section */
 .contact-section {
     display: flex;
     flex-direction: column;
-    padding: 60px;
+    padding: 0;
     text-align: center;
     position: relative;
     align-self: flex-start;
@@ -435,15 +431,18 @@ body {
     width: 100%;
 }
 
-
 .clients-news{
-    margin-top: 300px;
+    margin-top: 0;
 }
 .clients-bg {
+    left: 26px;
+    width: 96%;
     position: absolute;
     z-index: -1;
 }
-
+.text-content {
+    font-size: 12px;
+}
 
 /* map section*/
 .map-container {
@@ -478,12 +477,422 @@ body {
     font-size: 20px;
 }
 
+.about-bg-line {
+    width: 90%;
+    left: 40px;
+}
+
+.about-number {
+    font-size: 40px;
+    color: #C8C8C8;
+    font-weight: 900;
+    padding: 24px 0 0 104px;
+    margin: 0;
+}
+.service-row{
+    margin-top: -25px;
+}
+
+@media (min-width: 1025px) {
+    .container {
+        /*background-color: yellowgreen;*/
+        font-size: 18px;
+    }
+    .row-title{
+        padding-left: 60px;
+        padding-top: 20px;
+        text-transform: uppercase;
+        font-size: 50px;
+        font-weight: bold;
+        text-align: left;
+    }
+    .about-number {
+        font-size: 30px;
+        color: #C8C8C8;
+        font-weight: 900;
+        padding: 63px 0 0 163px;
+    }
+    .service-bg {
+display: none;
+    }
+    .about-bg-line{
+        width: 90%;
+        left: 25px;
+    }
+    .news-heading {
+        margin-top: -37px;
+        padding-top: 0;
+    }
+    .news {
+        padding-bottom: 60px;
+    }
+    .about-section {
+        padding: 150px 0 0 0;
+        margin: 0;
+
+    }
+    .contact-section {
+        padding: 30px;
+    }
+    .text-content{
+        font-size: 16px;
+    }
+    .title-section h2 {
+        font-size: 50px;
+    }
+    .clients-news{
+        margin-top: 0;
+        position: relative;
+    }
+    .home-page-service-row{
+        position: relative;
+        height: 600px;
+    }
+    .about-number{
+        font-size: 40px;
+        color: #C8C8C8;
+        font-weight: 900;
+        padding: 50px 0 0 120px;
+    }
+    .title {
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: left;
+        padding-top: 35px;
+    }
+    .clients-section {
+        text-align: center;
+        padding: 50px 0;
+    }
+    .service-row{
+        margin-top: 0;
+    }
+    .client-logos img {
+        max-width: 120px;
+        height: auto;
+        transition: transform 0.3s;
+    }
+    .about-section {
+        padding-top: 100px;
+        margin-left: -73px;
+        margin-bottom: 100px;
+    }
+    .clients-bg {
+        width: 100%;
+        left: 7px;
+    }
+
+    .client-logos {
+        margin-top: 30px;
+    }
+    .clients-section h2 {
+        font-size: 50px;
+    }
+    .news-heading h1 {
+        padding-top: 45px;
+    }
+    .news-number {
+        padding-top: 45px;
+    }
+}
+
+    @media (max-width: 768px) {
+        .container {
+            /*background-color: cadetblue;*/
+        font-size: 16px;
+    }
+
+    .navbar .nav-link {
+        margin-left: 15px;
+        text-align: center;
+    }
+    .clients-bg {
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+    .containerFooter {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-bg-line {
+        width: 80%;
+        left: 85px;
+    }
+
+    .about-content {
+        margin-top: -15px;
+    }
+
+    .row-title {
+        padding: 0;
+        font-size: 29px;
+    }
+
+    .about-number {
+        margin: 0;
+        font-size: 20px;
+        padding: 18px 0 0 126px
+    }
+
+    .text-content {
+        font-size: 9px;
+    }
 
 
+    .title-section h2 {
+        font-size: 30px;
+        /*left: 80px;*/
+        /*bottom: 60px;*/
+    }
 
+    .title-section a {
+        /*right: 39px;*/
+        /*bottom: 70px;*/
+        font-size: 15px;
+    }
 
+    .service-number {
+        font-size: 30px;
+        margin: -111px 45px;
+    }
 
+    .service-row {
+        width: 80%;
+        margin-left: 70px;
+    }
 
+    .overlay h3 {
+        font-size: 25px;
+    }
 
+    .services-section {
+        padding: 60px 0;
+    }
 
+    .home-page-service-row {
+        height: 300px;
+    }
 
+    .about-section {
+        padding-top: 10px;
+        margin: 0 0 20px 0;
+    }
+
+    .footer-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .clients-news {
+        margin-top: 0;
+    }
+
+    .service-bg {
+        width: 85%;
+    }
+
+    .clients-bg {
+        width: 90%;
+        left: 57px;
+    }
+
+    .clients-section h2 {
+        font-size: 29px;
+    }
+
+    .client-heading {
+        padding-top: 20px;
+    }
+
+    .client-logos {
+        gap: 0;
+        margin-top: -15px;
+    }
+
+    .client-logos img {
+        max-width: 70px;
+    }
+
+    .clients-section {
+        padding: 50px 0 0 0;
+    }
+
+    .news-heading {
+        padding-top: 4px;
+        padding-left: 48px;
+    }
+
+    .text-section {
+        font-size: 12px;
+    }
+
+    .title {
+        font-size: 18px;
+        padding-top: 0;
+    }
+
+    .news-link a {
+        font-size: 12px;
+    }
+
+    .news {
+        padding-bottom: 20px;
+    }
+
+    .contact-section {
+        padding: 0;
+    }
+
+    .contact-section h2 {
+        font-size: 20px;
+
+    }
+    .contact-section p {
+        font-size: 12px;
+
+    }
+}
+@media (max-width: 480px) {
+    .container {
+        /*background-color: lightcoral;*/
+        font-size: 14px;
+    }
+    .header {
+        padding: 0;
+    }
+    .footer-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .containerFooter {
+        margin-top: 100px;
+    }
+    .about-bg-line, .about-number{
+        display: none;
+    }
+    .hero h1{
+        font-size: 20px;
+    }
+    .hero p{
+        font-size: 14px;
+    }
+    .img-section {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .header-contact {
+        font-size: 12px;
+    }
+    .social-links a {
+        font-size: 15px;
+    }
+    .about-more{
+        font-size: 14px;
+    }
+    .clients-row{
+        flex-wrap: wrap;
+    }
+    .service-bg, .clients-bg{
+        display: none;
+    }
+    .home-page-service-row{
+        overflow-x: hidden;
+    }
+    .home-page-service-row {
+        display: flex;
+        height: 100%;
+    }
+    .title-section h2 {
+        font-size: 25px;
+    }
+    .title-section a {
+        font-size: 12px;
+
+    }
+    .title-section {
+        padding: 20px;
+    }
+    .services-section {
+        padding: 30px 0;
+    }
+    .service-number {
+        font-size: 30px;
+        margin: -30px 10px;
+    }
+    .service-card {
+        margin: 10px;
+    }
+
+    .overlay h3 {
+        font-size: 25px;
+    }
+    .client-heading {
+
+        padding-top: 20px;
+    }
+    .clients-section {
+        padding:  0;
+    }
+    .client-number{
+        font-size: 30px;
+    }
+    .news-number{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .clients-section h2 {
+        font-size: 29px;
+    }
+    .client-logos {
+        margin-top: 0;
+    }
+    .row-title {
+        padding-left: 0;
+        text-transform: uppercase;
+        font-size: 29px;
+        font-weight: bold;
+        text-align: left;
+        margin-top: 25px;
+    }
+    .news-heading {
+        padding-top: 40px;
+    }
+    .title {
+        font-size: 15px;
+        padding-top: 0;
+    }
+    .news-link a {
+        font-size: 15px;
+    }
+    .news {
+        padding-bottom: 50px;
+    }
+    .contact-section {
+      padding: 10px;
+}
+
+    .contacts-form {
+        width: 100%;
+    }
+    .contact-box {
+        padding: 10px;
+        width: 80%;
+    }
+    .service-row {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .news-heading {
+        padding-left: 10px;
+    }
+
+}

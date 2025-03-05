@@ -60,7 +60,7 @@ body {
 
 .main-section {
     position: relative;
-    background: url('../../images/services-about-as-page.webp') center/cover no-repeat;
+    background: url('../../images/services-about-us-page.webp') center/cover no-repeat;
     height: 764px;
     color: white;
     margin-bottom: 400px;
@@ -202,4 +202,33 @@ body {
     z-index: 2;
     left: -300px;
     top: 180px;
+}
+
+
+@media (min-width: 1025px) {
+    .container {
+        font-size: 18px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        font-size: 16px;
+    }
+    .navbar .nav-link {
+        margin-left: 15px;
+        text-align: center;
+    }
+    .containerFooter {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media (max-width: 480px) {
+    .container {
+        font-size: 14px;
+    }
+    .header {
+        padding: 0;
+    }
 }
