@@ -1,11 +1,4 @@
-
-
-
-
-
-
-
-* {
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -66,7 +59,6 @@ body {
 .about-content{
     display: flex;
     flex-direction: column;
-    font-size: 12px;
     margin-top: 20px;
 }
 .about-more {
@@ -82,10 +74,10 @@ body {
 
 .page-header {
     text-transform: uppercase;
-    font-size: 30px;
     font-weight: bold;
     text-align: left;
-    padding-top: 90px;
+    font-size: 30px;
+    padding-top: 10%;
 }
 
 
@@ -117,10 +109,12 @@ body {
     aspect-ratio:1/1;
 }
 
-.about-row {
-    margin-top: -45px;
+ .about-row {
+     margin-top: 12%;
+ }
+.about-text {
+    padding-top: 8%;
 }
-
 
 
 
@@ -136,63 +130,25 @@ body {
 .text-content-last {
     margin-top: -71px;
 }
-@media (min-width: 1441px) {
-    .bg-line{
-        left: 25%;
-    }
-    .bg-second{
-display: none;
-    }
-}
-@media (min-width: 1024px) {
-    .container {
-        /*background-color: yellowgreen;*/
-        font-size: 18px;
-    }
-    .about-content{
-        display: flex;
-        flex-direction: column;
-    }
-    .page-header {
-        padding-top: 90px;
-    }
 
-    .text-section {
-        padding-top: 100px;
-    }
-    .about-text {
-        padding-top: 75px;
-    }
-    .about-section {
-        margin-top: 22px;
-        margin-left: 55px;
-    }
-    .bg-second{
-        display: none;
-    }
-    .bg-line{
-        display: none;
-    }
 
-}
-
+ .about {
+     position: relative;
+     overflow-x: hidden;
+ }
 @media (max-width: 1024px) {
     .bg-line {
-        width: 86%;
-        left: 50px;
+display: none;
     }
     .bg-second {
-        width: 86%;
-        left: 124px;
+display: none;
     }
     .about-text {
         padding-top: 20px;
         font-size: 12px;
     }
     .text-section-row{
-        /*width: 100%;*/
         font-size: 12px;
-        /*padding-left: 20px;*/
     }
     .text-section {
         font-size: 12px;
@@ -206,6 +162,7 @@ display: none;
     .about-row {
         margin-top: -20px;
     }
+
 }
 @media (max-width: 768px) {
     .about-section {
@@ -250,7 +207,6 @@ display: none;
     .text-section-row{
         width: 100%;
         font-size: 12px;
-        /*padding-left: 20px;*/
     }
     .img-section {
         width: 100%;
@@ -280,6 +236,9 @@ display: none;
         padding: 0;
     }
     .bg-line {
+        display: none;
+    }
+    .bg-second{
         display: none;
     }
 

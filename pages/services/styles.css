@@ -230,5 +230,40 @@ body {
     }
     .header {
         padding: 0;
+        height: auto;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+    .services-bg-line, .services-row1-bg-line, .services-row2-bg-line{
+        display: none;
+    }
+
+    .project-card {
+        width: 70%;
+        height: auto;
+        margin: 20px auto;
+    }
+    .service-header {
+        font-size: 25px;
+    }
+    .overlay h3 {
+        font-size: 15px;
+    }
+    .overlay a {
+        font-size: 12px;
+    }
+    .main-bg {
+        padding-top: 153px;
+    }
+    .cards-first-column {
+        margin-top: 0;
+    }
+    .main-section {
+        margin-bottom: 180px;
+    }
+    .cards-second-column {
+        margin-top: 20px;
     }
 }

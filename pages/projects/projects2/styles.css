@@ -132,7 +132,7 @@ body {
 .bg-line{
     position: absolute;
     z-index: -1;
-    left: -227px;
+    left: -170px;
     top: -40px;
 }
 
@@ -168,10 +168,42 @@ body {
     margin-top:130px;
 }
 
-@media (min-width: 1025px) {
+
+@media (max-width: 1024px) {
     .container {
         font-size: 18px;
     }
+    .bg-line{
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        left: -90px;
+        top: 0;
+    }
+    .title {
+        font-size: 20px;
+        padding: 50px 0 20px 0;
+    }
+    .project-content {
+        margin-top: 50px;
+    }
+    .project-section {
+        margin-top: 50px;
+    }
+    #image-slider{
+         margin-top: 50px;
+    }
+    .text-content{
+        font-size: 12px;
+    }
+    .bg-line{
+        display: none;
+    }
+    .background{
+        display: none;
+    }
+
+
 }
 @media (max-width: 768px) {
     .container {
@@ -181,11 +213,45 @@ body {
         margin-left: 15px;
         text-align: center;
     }
+    .header {
+        height: auto;
+    }
     .containerFooter {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
+    .bg-line{
+        display: none;
+    }
+    .background{
+        display: none;
+    }
+    .title {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+    .project-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-content{
+        width: 100%;
+    }
+    .projectsRow, .projectsLastRow{
+        width: 100%;
+    }
+    .project-section {
+        margin-top: 30px;
+    }
+    .redBg{
+        width: 100%;
+    }
+
+
+
 }
 @media (max-width: 480px) {
     .container {
@@ -193,5 +259,29 @@ body {
     }
     .header {
         padding: 0;
+        height: auto;
+
+    }
+    .bg-line{
+        display: none;
+    }
+    .background{
+        display: none;
+    }
+    .title {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    .text-content{
+        font-size: 12px;
+    }
+    .project-content {
+        margin-top: 30px;
+    }
+    .project-section {
+        margin-top: 20px;
+    }
+    #image-slider {
+        margin-top: 50px;
     }
 }

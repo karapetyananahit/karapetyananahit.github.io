@@ -272,6 +272,59 @@ body {
     }
     .header {
         padding: 0;
+        height: auto;
+    }
+    .service-bg-line{
+        display: none;
+    }
+    .content-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .contentProject{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .text .pageHeader {
+        font-size: 30px;
+    }
+    .project-image {
+        width: 100%;
+        height:  auto;
+    }
+    .background {
+         margin-top: -70px;
+    }
+    .contentProject {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section-title {
+        font-size: 25px;
+    }
+    .projects-section .container {
+         padding-left: 0;
+    }
+    .text p {
+        font-size: 12px;
+    }
+    .cards-section{
+        gap: 20px;
+    }
+    .overlay-card h3 {
+        font-size: 20px;
+    }
+    .overlay-card a {
+        font-size: 15px;
+    }
+    .project-card {
+        height: 350px;
     }
 }
 

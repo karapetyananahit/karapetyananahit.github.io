@@ -495,7 +495,6 @@ body {
 
 @media (min-width: 1025px) {
     .container {
-        /*background-color: yellowgreen;*/
         font-size: 18px;
     }
     .row-title{
@@ -513,7 +512,7 @@ body {
         padding: 63px 0 0 163px;
     }
     .service-bg {
-display: none;
+        display: none;
     }
     .about-bg-line{
         width: 90%;
@@ -599,7 +598,6 @@ display: none;
 
     @media (max-width: 768px) {
         .container {
-            /*background-color: cadetblue;*/
         font-size: 16px;
     }
 
@@ -645,13 +643,9 @@ display: none;
 
     .title-section h2 {
         font-size: 30px;
-        /*left: 80px;*/
-        /*bottom: 60px;*/
     }
 
     .title-section a {
-        /*right: 39px;*/
-        /*bottom: 70px;*/
         font-size: 15px;
     }
 
@@ -729,7 +723,7 @@ display: none;
     }
 
     .text-section {
-        font-size: 12px;
+        font-size: 9px;
     }
 
     .title {
@@ -760,7 +754,6 @@ display: none;
 }
 @media (max-width: 480px) {
     .container {
-        /*background-color: lightcoral;*/
         font-size: 14px;
     }
     .header {
@@ -829,7 +822,7 @@ display: none;
         margin: -30px 10px;
     }
     .service-card {
-        margin: 10px;
+        margin: 10px auto;
     }
 
     .overlay h3 {
