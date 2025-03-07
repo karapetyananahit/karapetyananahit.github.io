@@ -175,7 +175,6 @@ body {
 .service-bg {
     position: absolute;
     z-index: 1;
-    width: 95%;
 }
 
 .services-section {
@@ -492,6 +491,16 @@ body {
 .service-row{
     margin-top: -25px;
 }
+.overlay h3 {
+    font-size: 31px;
+}
+@media (max-width: 1025px) {
+    .service-bg {
+        position: absolute;
+        z-index: 1;
+        width: 95%;
+    }
+}
 
 @media (min-width: 1025px) {
     .container {
@@ -512,7 +521,8 @@ body {
         padding: 63px 0 0 163px;
     }
     .service-bg {
-        display: none;
+        position: absolute;
+        z-index: 1;
     }
     .about-bg-line{
         width: 90%;
@@ -594,9 +604,10 @@ body {
     .news-number {
         padding-top: 45px;
     }
+
 }
 
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
         .container {
         font-size: 16px;
     }
