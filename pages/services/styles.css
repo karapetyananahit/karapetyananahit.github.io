@@ -207,8 +207,6 @@ body {
     display: none;
 }
 
-
-
 @media (min-width: 1025px) {
     .container {
         font-size: 18px;
@@ -330,7 +328,6 @@ body {
     .services-bg-line, .services-row1-bg-line, .services-row2-bg-line{
         display: none;
     }
-
     .project-card {
         width: 200px;
         height: auto;

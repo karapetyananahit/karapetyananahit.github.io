@@ -138,10 +138,19 @@ body {
  }
 @media (max-width: 1024px) {
     .bg-line {
-display: none;
+        width: 95%;
+        position: absolute;
+        z-index: -1;
+    }
+    .page-header {
+        font-size: 40px;
+        padding-top: 11%;
     }
     .bg-second {
-display: none;
+        width: 95%;
+        position: absolute;
+        z-index: -1;
+        bottom: 71px;
     }
     .about-text {
         padding-top: 20px;
@@ -157,10 +166,23 @@ display: none;
     .text-content-last {
         font-size: 12px;
         padding-left: 20px;
-        margin-top: -85px;
+        margin-top: -66px;
     }
+    .about-content {
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .img-square {
+        width: 90%;
+        margin-bottom: 25px;
+        object-fit: cover;
+        aspect-ratio: 1 / 1;
+    }
+
+
+
     .about-row {
-        margin-top: -20px;
+        margin-top: 100px;
     }
 
 }

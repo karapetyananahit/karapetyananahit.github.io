@@ -159,9 +159,6 @@ body {
     margin-bottom: 100px;
     top: 50px;
 }
-.projects-section .container{
-    padding-left: 100px;
-}
 
 .section-title {
     font-family:  "Raleway", serif;
@@ -242,10 +239,20 @@ body {
 }
 
 .service-bg-line{
-    display: none;
+    display: block;
+    position: absolute;
+    z-index: -1;
+    margin-top: -70px;
 }
 .text-content p {
     font-size: 14px;
+}
+.projectTwo{
+    position: relative;
+}
+.projects{
+    overflow-x: hidden;
+
 }
 
 @media (min-width: 1025px) {
@@ -300,7 +307,6 @@ body {
     }
     .projects{
         overflow-x: hidden;
-
     }
 }
 @media (max-width: 768px) {
