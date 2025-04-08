@@ -28,11 +28,8 @@ function moveFooterElements() {
             wrapperCreated = false;
         }
     }
-    // Փոխում ենք social icon-ների գույնը
     const icons = document.querySelectorAll('.social-links i');
-
         icons.forEach(icon => {
-            console.log(10)
             icon.style.color =window.innerWidth <992 ? 'white' : '#991b1f';
         });
 
