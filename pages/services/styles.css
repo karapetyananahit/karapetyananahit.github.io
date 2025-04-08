@@ -23,8 +23,11 @@ body {
     color: white !important;
     margin-left: 15px;
 }
+.footer .social-links a{
+    color: rgb(153, 27, 31);
+}
 .footer-item .nav-link {
-    color: #ED1C24 !important;
+    color: rgb(153, 27, 31) !important;
     margin-left: 15px;
 }
 
@@ -359,5 +362,84 @@ body {
     }
     .main-section {
         height: 700px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar-collapse li {
+        border-bottom: 3px solid #991B1F;
+
+        box-shadow: 0 4px 6px rgba(153, 27, 31, 0.4);
+        margin: 5px;
+        border-radius: 8px;
+    }
+    .navbar-collapse {
+        margin-top: 10px;
+        background-color:#fff;
+        padding: 5px;
+        border-radius: 8px;
+
+    }
+    .navbar-nav .nav-link {
+        color: #991B1F !important;
+        font-weight: bold;
+    }
+    .containerFooter {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "menu right";
+        column-gap: 20px;
+        align-items: center;
+    }
+    .social-links a {
+        font-size: 15px;
+    }
+    .footer-item {
+        display: flex;
+        flex-direction: column;
+        grid-area: menu;
+    }
+    .footer-logo {
+        content: url('../../images/header-logo.webp');
+        width: 110px;
+
+    }
+    .footer-item .nav-link {
+        color: white !important;
+        display: block;
+        text-align: left;
+        font-size: 12px;
+    }
+    .footer-item .nav-link {
+        margin: 0 !important;
+        padding: 4px 10px;
+    }
+    .logo-social-wrapper {
+        grid-area: right;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .logo-social-wrapper > div {
+        margin: 0 auto;
+    }
+
+    .social-links {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .footer .social-links a{
+        color: white;
+    }
+
+    .footer{
+        background-color: rgba(153, 27, 31, 0.8);
     }
 }
