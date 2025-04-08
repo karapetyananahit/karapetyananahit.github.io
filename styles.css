@@ -959,6 +959,8 @@ body {
         flex-direction: column;
         gap: 10px;
         align-items: start;
+        padding-inline: clamp(10px, 5vw, 30px);
+        padding-block: 0;
     }
     .footer .social-links a{
         color: white;
