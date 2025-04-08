@@ -441,7 +441,6 @@ body {
 @media (max-width: 991.98px) {
     .navbar-collapse li {
         border-bottom: 3px solid #991B1F;
-
         box-shadow: 0 4px 6px rgba(153, 27, 31, 0.4);
         margin: 5px;
         border-radius: 8px;
@@ -458,23 +457,28 @@ body {
         font-weight: bold;
     }
     .containerFooter {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas:
-            "menu right";
-        column-gap: 20px;
-        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: start;
+        padding: 25px 0;
     }
-
+    .social-links a {
+        font-size: 15px;
+    }
     .footer-item {
         display: flex;
         flex-direction: column;
-        grid-area: menu;
+        align-items: flex-start;
     }
-    .footer-logo {
-        content: url('../../../images/header-logo.webp');
-        width: 110px;
+
+    .logo-social-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-end;
     }
+
     .footer-item .nav-link {
         color: white !important;
         display: block;
@@ -486,34 +490,42 @@ body {
         padding: 4px 10px;
     }
     .social-links a {
-        font-size: 15px;
-    }
-    .logo-social-wrapper {
-        grid-area: right;
         display: flex;
-        flex-direction: column;
         align-items: center;
-        justify-content: center;
-        gap: 15px;
-        width: 100%;
+        gap: 8px;
     }
-
+    .containerFooter > div:first-child {
+        display: none;
+    }
     .logo-social-wrapper > div {
         margin: 0 auto;
     }
-
     .social-links {
         display: flex;
-        gap: 15px;
-        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        align-items: start;
+        padding-inline: clamp(10px, 5vw, 30px);
+        padding-block: 0;
     }
-
     .footer .social-links a{
         color: white;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: bold;
     }
 
     .footer{
         background-color: rgba(153, 27, 31, 0.8);
+    }
+    .footer-logo {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .social-links a span {
+        display: none;
     }
 }
 
